@@ -1,0 +1,130 @@
+/* color that i used from https://colorhunt.co/
+638889
+9DBC98
+EBD9B4
+F9EFDB
+*/
+
+
+
+
+/* Select all CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Add this line to include padding and border in element's total width and height */
+  overflow-x: hidden;
+  
+}
+
+/* Header CSS */
+.header{
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  background-color: #638889;
+  border-radius: 5px;
+  box-shadow: -1px 4px 20px 14px rgba(0, 0, 0, 0.2);
+  color: #F9EFDB;
+  font-weight: bold;
+  margin: 10px;
+}
+
+
+.logo{
+  padding-left: 10px;
+  width: 100px;
+}
+
+.nav-items{   
+  padding: 0 10px 0;
+  width: auto;
+}
+
+.nav-items > ul{
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li{
+  padding: 40px 10px 0 0;
+  font-size: large;
+  cursor: pointer;
+}
+
+
+/* Body CSS */
+
+.restaurant-list{
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  background-color: #F9EFDB;
+  border-radius: 5px;
+  box-shadow: -1px 4px 20px 14px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+}
+
+.card{
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: -1px 4px 20px 14px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.card > img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card > span{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card > span > h4{
+  text-align: center;
+}
+
+.card > span > h4:first-child{
+  display: flex;
+  align-items: center;
+  background-color: rgb(19, 176, 1);
+  border-radius: 5px;
+  padding: 0 5px 0;
+  color: white;
+}
+
+.card > span > h4:first-child .fa-star{
+  font-size: small;
+  padding: 0 5px 3px 0;
+}
+
+
+
+/* footer CSS */
+.footer{
+  margin: 10px;
+  width: auto;
+  text-align: center;
+
+  color: #F9EFDB;;
+  background-color: #638889;
+  padding: 20px 10px 20px;
+  border-radius: 5px;
+  box-shadow: -1px 4px 20px 14px rgba(0, 0, 0, 0.2);
+}
+
+.footer > i{
+  padding: 0 5px 0;
+  font-size: smaller;
+}
+.footer > a{
+  text-decoration: underline;
+  color: #9DBC98;
+
+}
