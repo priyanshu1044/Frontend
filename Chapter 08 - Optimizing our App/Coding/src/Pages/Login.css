@@ -1,0 +1,84 @@
+/* Login page CSS Start */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.login-container {
+    background-color: #F9EFDB;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: calc(100vh - 192px);
+    width: calc(100vw - 20px);
+
+    border-radius: 5px;
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    color: #638889;
+    font-weight: bold;
+}
+
+.login-form {
+    position: relative;
+    z-index: 1;
+    background: #F9EFDB;
+    border-radius: 15px;
+    max-width: 400px;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-form input {
+    outline: 0;
+    background: #9DBC98;
+    width: 100%;
+    border: 0;
+    border-radius: 8px;
+    margin: 0 0 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #638889;
+}
+
+.login-form input:focus {
+    background: #EBD9B4;
+}
+
+.login-form button {
+    text-transform: uppercase;
+    outline: 0;
+    background: #638889;
+    width: 100%;
+    border: 0;
+    border-radius: 8px;
+    padding: 15px;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.login-form button:active {
+    background: #1E212D;
+}
+
+.login-form span {
+    font-size: 40px;
+    color: #638889;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.login-form p.error {
+    margin: 10px 0;
+    text-align: left;
+    font-size: 14px;
+    color: #FF6363;
+}
+/* Login page CSS End */
